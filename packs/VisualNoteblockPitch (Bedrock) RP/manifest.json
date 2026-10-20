@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Visual Noteblock Pitch (Resources)",
+        "description": "Pitch-number side textures (00-24) for the Visual Noteblock Pitch add-on.",
+        "uuid": "e3ccc4a1-c2d1-4963-80cc-6fba89a1bbac",
+        "version": [
+            1,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            26,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "5095170a-2db4-4588-b3a2-23998aca5b8b",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "capabilities": ["pbr"],
+    "dependencies": [
+        {
+            "uuid": "5124503b-910e-4ded-bda1-03e6336bf136",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "MrMR711"
+        ],
+        "license": "MIT"
+    }
+}

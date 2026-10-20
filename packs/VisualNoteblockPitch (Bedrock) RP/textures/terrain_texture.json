@@ -1,0 +1,92 @@
+{
+    "resource_pack_name": "VisualNoteblockPitchRP",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "notey_note_block": {
+            "textures": "textures/blocks/visual_noteblock_pitch"
+        },
+        "notey_pitch_00": {
+            "textures": "textures/blocks/pitches/note_block_pitch_00"
+        },
+        "notey_pitch_01": {
+            "textures": "textures/blocks/pitches/note_block_pitch_01"
+        },
+        "notey_pitch_02": {
+            "textures": "textures/blocks/pitches/note_block_pitch_02"
+        },
+        "notey_pitch_03": {
+            "textures": "textures/blocks/pitches/note_block_pitch_03"
+        },
+        "notey_pitch_04": {
+            "textures": "textures/blocks/pitches/note_block_pitch_04"
+        },
+        "notey_pitch_05": {
+            "textures": "textures/blocks/pitches/note_block_pitch_05"
+        },
+        "notey_pitch_06": {
+            "textures": "textures/blocks/pitches/note_block_pitch_06"
+        },
+        "notey_pitch_07": {
+            "textures": "textures/blocks/pitches/note_block_pitch_07"
+        },
+        "notey_pitch_08": {
+            "textures": "textures/blocks/pitches/note_block_pitch_08"
+        },
+        "notey_pitch_09": {
+            "textures": "textures/blocks/pitches/note_block_pitch_09"
+        },
+        "notey_pitch_10": {
+            "textures": "textures/blocks/pitches/note_block_pitch_10"
+        },
+        "notey_pitch_11": {
+            "textures": "textures/blocks/pitches/note_block_pitch_11"
+        },
+        "notey_pitch_12": {
+            "textures": "textures/blocks/pitches/note_block_pitch_12"
+        },
+        "notey_pitch_13": {
+            "textures": "textures/blocks/pitches/note_block_pitch_13"
+        },
+        "notey_pitch_14": {
+            "textures": "textures/blocks/pitches/note_block_pitch_14"
+        },
+        "notey_pitch_15": {
+            "textures": "textures/blocks/pitches/note_block_pitch_15"
+        },
+        "notey_pitch_16": {
+            "textures": "textures/blocks/pitches/note_block_pitch_16"
+        },
+        "notey_pitch_17": {
+            "textures": "textures/blocks/pitches/note_block_pitch_17"
+        },
+        "notey_pitch_18": {
+            "textures": "textures/blocks/pitches/note_block_pitch_18"
+        },
+        "notey_pitch_19": {
+            "textures": "textures/blocks/pitches/note_block_pitch_19"
+        },
+        "notey_pitch_20": {
+            "textures": "textures/blocks/pitches/note_block_pitch_20"
+        },
+        "notey_pitch_21": {
+            "textures": "textures/blocks/pitches/note_block_pitch_21"
+        },
+        "notey_pitch_22": {
+            "textures": "textures/blocks/pitches/note_block_pitch_22"
+        },
+        "notey_pitch_23": {
+            "textures": "textures/blocks/pitches/note_block_pitch_23"
+        },
+        "notey_pitch_24": {
+            "textures": "textures/blocks/pitches/note_block_pitch_24"
+        },
+        "notey_pitch_frame": {
+            "textures": "textures/blocks/note_block_side_frame"
+        },
+        "notey_tunnel_wall": {
+            "textures": "textures/blocks/tunnel_wall"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Visual Noteblock Pitch (Behavior)",
+        "description": "A faithful vanilla-behavior note block whose side faces show the current pitch (00-24) on recessed 3D displays. Requires Minecraft 1.26+.",
+        "uuid": "5124503b-910e-4ded-bda1-03e6336bf136",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            26,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "5d4fa540-1916-4cd0-82e8-844da4d4258f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "c6a07d9b-02ca-4286-9e8d-e17b20fd2cb3",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0"
+        },
+        {
+            "uuid": "e3ccc4a1-c2d1-4963-80cc-6fba89a1bbac",
+            "version": [
+                1,
+                1,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "MrMR711"
+        ],
+        "license": "MIT"
+    }
+}

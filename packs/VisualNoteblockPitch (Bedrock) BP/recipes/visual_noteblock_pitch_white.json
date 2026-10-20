@@ -1,0 +1,43 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "notey:visual_noteblock_pitch_white"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "group": "visual_noteblock_pitch",
+        "unlock": [
+            {
+                "tag": "minecraft:planks"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:white_stained_glass_pane"
+            }
+        ],
+        "pattern": [
+            "PGP",
+            "PRP",
+            "PGP"
+        ],
+        "key": {
+            "P": {
+                "tag": "minecraft:planks"
+            },
+            "G": {
+                "item": "minecraft:white_stained_glass_pane"
+            },
+            "R": {
+                "item": "minecraft:redstone"
+            }
+        },
+        "result": {
+            "item": "notey:visual_noteblock_pitch",
+            "count": 1
+        }
+    }
+}

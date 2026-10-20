@@ -1,0 +1,1089 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.notey_visual_noteblock_pitch",
+                "texture_width": 64,
+                "texture_height": 64,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 2,
+                "visible_bounds_offset": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "frame",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                16
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        64,
+                                        64
+                                    ],
+                                    "material_instance": "up"
+                                },
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        64,
+                                        64
+                                    ],
+                                    "material_instance": "down"
+                                },
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        64,
+                                        64
+                                    ],
+                                    "material_instance": "side_frame"
+                                },
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        64,
+                                        64
+                                    ],
+                                    "material_instance": "side_frame"
+                                },
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        64,
+                                        64
+                                    ],
+                                    "material_instance": "side_frame"
+                                },
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        64,
+                                        64
+                                    ],
+                                    "material_instance": "side_frame"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "display_top",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "comment": "Top display, west/east faces, recessed 0.5px (Java VT parity)",
+                            "origin": [
+                                -7.5005,
+                                9,
+                                -2.9995
+                            ],
+                            "size": [
+                                15.001,
+                                5,
+                                6
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        20,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        24,
+                                        20
+                                    ],
+                                    "material_instance": "display_top"
+                                },
+                                "west": {
+                                    "uv": [
+                                        20,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        24,
+                                        20
+                                    ],
+                                    "material_instance": "display_top"
+                                }
+                            }
+                        },
+                        {
+                            "comment": "Top display, north/south faces, recessed 0.5px",
+                            "origin": [
+                                -3,
+                                9,
+                                -7.5
+                            ],
+                            "size": [
+                                6,
+                                5,
+                                15.001
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        20,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        24,
+                                        20
+                                    ],
+                                    "material_instance": "display_top"
+                                },
+                                "south": {
+                                    "uv": [
+                                        20,
+                                        8
+                                    ],
+                                    "uv_size": [
+                                        24,
+                                        20
+                                    ],
+                                    "material_instance": "display_top"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "display_bottom",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "comment": "Bottom display, west/east faces, recessed 0.5px",
+                            "origin": [
+                                -7.5005,
+                                2,
+                                -2.9995
+                            ],
+                            "size": [
+                                15.001,
+                                5,
+                                6
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        20,
+                                        36
+                                    ],
+                                    "uv_size": [
+                                        24,
+                                        20
+                                    ],
+                                    "material_instance": "display_bottom"
+                                },
+                                "west": {
+                                    "uv": [
+                                        20,
+                                        36
+                                    ],
+                                    "uv_size": [
+                                        24,
+                                        20
+                                    ],
+                                    "material_instance": "display_bottom"
+                                }
+                            }
+                        },
+                        {
+                            "comment": "Bottom display, north/south faces, recessed 0.5px",
+                            "origin": [
+                                -3,
+                                2,
+                                -7.5
+                            ],
+                            "size": [
+                                6,
+                                5,
+                                15.001
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        20,
+                                        36
+                                    ],
+                                    "uv_size": [
+                                        24,
+                                        20
+                                    ],
+                                    "material_instance": "display_bottom"
+                                },
+                                "south": {
+                                    "uv": [
+                                        20,
+                                        36
+                                    ],
+                                    "uv_size": [
+                                        24,
+                                        20
+                                    ],
+                                    "material_instance": "display_bottom"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "tunnel_walls",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -3.01,
+                                9,
+                                -8
+                            ],
+                            "size": [
+                                0.01,
+                                5,
+                                0.5
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3,
+                                9,
+                                -8
+                            ],
+                            "size": [
+                                0.01,
+                                5,
+                                0.5
+                            ],
+                            "uv": {
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                14,
+                                -8
+                            ],
+                            "size": [
+                                6,
+                                0.01,
+                                0.5
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                8.99,
+                                -8
+                            ],
+                            "size": [
+                                6,
+                                0.01,
+                                0.5
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.01,
+                                2,
+                                -8
+                            ],
+                            "size": [
+                                0.01,
+                                5,
+                                0.5
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3,
+                                2,
+                                -8
+                            ],
+                            "size": [
+                                0.01,
+                                5,
+                                0.5
+                            ],
+                            "uv": {
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                7,
+                                -8
+                            ],
+                            "size": [
+                                6,
+                                0.01,
+                                0.5
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                1.99,
+                                -8
+                            ],
+                            "size": [
+                                6,
+                                0.01,
+                                0.5
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.01,
+                                9,
+                                7.5
+                            ],
+                            "size": [
+                                0.01,
+                                5,
+                                0.5
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3,
+                                9,
+                                7.5
+                            ],
+                            "size": [
+                                0.01,
+                                5,
+                                0.5
+                            ],
+                            "uv": {
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                14,
+                                7.5
+                            ],
+                            "size": [
+                                6,
+                                0.01,
+                                0.5
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                8.99,
+                                7.5
+                            ],
+                            "size": [
+                                6,
+                                0.01,
+                                0.5
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3.01,
+                                2,
+                                7.5
+                            ],
+                            "size": [
+                                0.01,
+                                5,
+                                0.5
+                            ],
+                            "uv": {
+                                "east": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                3,
+                                2,
+                                7.5
+                            ],
+                            "size": [
+                                0.01,
+                                5,
+                                0.5
+                            ],
+                            "uv": {
+                                "west": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                7,
+                                7.5
+                            ],
+                            "size": [
+                                6,
+                                0.01,
+                                0.5
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -3,
+                                1.99,
+                                7.5
+                            ],
+                            "size": [
+                                6,
+                                0.01,
+                                0.5
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                7.5,
+                                9,
+                                -3.01
+                            ],
+                            "size": [
+                                0.5,
+                                5,
+                                0.01
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                7.5,
+                                9,
+                                3
+                            ],
+                            "size": [
+                                0.5,
+                                5,
+                                0.01
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                7.5,
+                                14,
+                                -3
+                            ],
+                            "size": [
+                                0.5,
+                                0.01,
+                                6
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                7.5,
+                                8.99,
+                                -3
+                            ],
+                            "size": [
+                                0.5,
+                                0.01,
+                                6
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                7.5,
+                                2,
+                                -3.01
+                            ],
+                            "size": [
+                                0.5,
+                                5,
+                                0.01
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                7.5,
+                                2,
+                                3
+                            ],
+                            "size": [
+                                0.5,
+                                5,
+                                0.01
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                7.5,
+                                7,
+                                -3
+                            ],
+                            "size": [
+                                0.5,
+                                0.01,
+                                6
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                7.5,
+                                1.99,
+                                -3
+                            ],
+                            "size": [
+                                0.5,
+                                0.01,
+                                6
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                9,
+                                -3.01
+                            ],
+                            "size": [
+                                0.5,
+                                5,
+                                0.01
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                9,
+                                3
+                            ],
+                            "size": [
+                                0.5,
+                                5,
+                                0.01
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                14,
+                                -3
+                            ],
+                            "size": [
+                                0.5,
+                                0.01,
+                                6
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                8.99,
+                                -3
+                            ],
+                            "size": [
+                                0.5,
+                                0.01,
+                                6
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                2,
+                                -3.01
+                            ],
+                            "size": [
+                                0.5,
+                                5,
+                                0.01
+                            ],
+                            "uv": {
+                                "south": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                2,
+                                3
+                            ],
+                            "size": [
+                                0.5,
+                                5,
+                                0.01
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                7,
+                                -3
+                            ],
+                            "size": [
+                                0.5,
+                                0.01,
+                                6
+                            ],
+                            "uv": {
+                                "down": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                1.99,
+                                -3
+                            ],
+                            "size": [
+                                0.5,
+                                0.01,
+                                6
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        4,
+                                        4
+                                    ],
+                                    "material_instance": "tunnel_wall"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,907 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "notey:visual_noteblock_pitch",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "notey:octave": [
+                    0,
+                    1
+                ],
+                "notey:semitone": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.notey_visual_noteblock_pitch"
+            },
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "notey_note_block",
+                    "render_method": "alpha_test"
+                },
+                "down": {
+                    "texture": "notey_note_block",
+                    "render_method": "alpha_test"
+                },
+                "side_frame": {
+                    "texture": "notey_pitch_frame",
+                    "render_method": "alpha_test",
+                    "face_dimming": true
+                },
+                "display_top": {
+                    "texture": "notey_pitch_00",
+                    "render_method": "alpha_test",
+                    "face_dimming": true
+                },
+                "display_bottom": {
+                    "texture": "notey_pitch_00",
+                    "render_method": "alpha_test",
+                    "face_dimming": true
+                },
+                "tunnel_wall": {
+                    "texture": "notey_tunnel_wall",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.8
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.8
+            },
+            "minecraft:flammable": {
+                "catch_chance_from_flames": 5,
+                "destroy_chance_from_flames": 20
+            },
+            "minecraft:map_color": "#8F7748",
+            "minecraft:friction": 0.6,
+            "minecraft:redstone_conductivity": {
+                "redstone_conductor": true
+            },
+            "minecraft:redstone_consumer": {
+                "min_power": 0,
+                "propagates_power": true
+            },
+            "minecraft:movable": {
+                "movement_type": "immovable"
+            },
+            "notey:visual_pitch_redstone": {}
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_01",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_01",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_02",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_02",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_03",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_03",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_04",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_04",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_05",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_05",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 6",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_06",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_06",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_07",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_07",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 8",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_08",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_08",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 9",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_09",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_09",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 10",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_10",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_10",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 11",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_11",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_11",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 0 && query.block_state('notey:semitone') == 12",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_12",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_12",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_13",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_13",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_14",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_14",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_15",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_15",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_16",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_16",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_17",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_17",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_18",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_18",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 6",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_19",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_19",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_20",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_20",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 8",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_21",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_21",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 9",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_22",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_22",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 10",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_23",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_23",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('notey:octave') == 1 && query.block_state('notey:semitone') == 11",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "notey_note_block",
+                            "render_method": "alpha_test"
+                        },
+                        "side_frame": {
+                            "texture": "notey_pitch_frame",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_top": {
+                            "texture": "notey_pitch_24",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "display_bottom": {
+                            "texture": "notey_pitch_24",
+                            "render_method": "alpha_test",
+                            "face_dimming": true
+                        },
+                        "tunnel_wall": {
+                            "texture": "notey_tunnel_wall",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
