@@ -34,8 +34,8 @@
 ## <a href="#!"><img src="docs/readme-svg/image.svg" width="20" height="20" alt="" style="vertical-align:middle;display:inline-block;margin:0 4px 2px 0;pointer-events:none;"></a> اسکرین‌ شات‌ها
 
 <p align="center">
-  <img src="docs/screenshots/1.png" width="49%" alt="Visual Noteblock Pitch (Bedrock)">
-  <img src="docs/screenshots/2.png" width="49%" alt="Visual Noteblock Pitch (Bedrock)">
+  <img src="docs/screenshots/1.webp" width="49%" alt="Visual Noteblock Pitch (Bedrock)">
+  <img src="docs/screenshots/2.webp" width="49%" alt="Visual Noteblock Pitch (Bedrock)">
 </p>
 <p align="center"><sub>نمای بلوک و متغیرهای تکسچر آن از دو زاویه</sub></p>
 
@@ -246,8 +246,8 @@ Everything is built with **official, stable APIs only (1.26+)** — **no Experim
 ## <a href="#!"><img src="docs/readme-svg/image.svg" width="20" height="20" alt="" style="vertical-align:middle;display:inline-block;margin:0 4px 2px 0;pointer-events:none;"></a> Screenshots
 
 <p align="center">
-  <img src="docs/screenshots/1.png" width="49%" alt="Visual Noteblock Pitch (Bedrock)">
-  <img src="docs/screenshots/2.png" width="49%" alt="Visual Noteblock Pitch (Bedrock)">
+  <img src="docs/screenshots/1.webp" width="49%" alt="Visual Noteblock Pitch (Bedrock)">
+  <img src="docs/screenshots/2.webp" width="49%" alt="Visual Noteblock Pitch (Bedrock)">
 </p>
 <p align="center"><sub>The block and its texture variants, viewed from two angles</sub></p>
 
